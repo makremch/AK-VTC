@@ -5191,15 +5191,16 @@ height: 100% !important;
     background: #f5b754;
     color: #1b1b1b;
     font-family: 'Outfit', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     text-decoration: none;
     line-height: 60px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-out;
-    font-weight: 300;
+    font-weight: 700; /* gras */
     border-radius: 30px;
 }
+
 .booking-button:hover {
     background: #fff;
     color: #1b1b1b;
@@ -5432,7 +5433,10 @@ height: 100% !important;
     background: #1b1b1b;
     padding: 60px 40px;
     margin-bottom: -60px;
-    border-radius: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .booking-box .head-box h6 {
     font-size: 10px;
@@ -7133,7 +7137,7 @@ height: 100% !important;
     border: none;
 }
 .modal-header {
-    background: #f5b754;
+    background: #1b1b1b;
     border: none;
     padding: 25px 30px;
     border-top-left-radius: 18px;
@@ -7152,7 +7156,7 @@ height: 100% !important;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #1b1b1b;
+    color: #f5b754;
 }
 .modal-body .input1_inner input {
     position: relative;
