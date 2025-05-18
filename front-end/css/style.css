@@ -5432,7 +5432,7 @@ height: 100% !important;
     background: #1b1b1b;
     padding: 60px 40px;
     margin-bottom: -60px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .booking-box .head-box h6 {
     font-size: 10px;
