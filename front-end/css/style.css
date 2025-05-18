@@ -507,6 +507,14 @@ hr {
     opacity: 1;
 }
 
+.separator-line {
+    border: none;
+    border-top: 1px solid #f5b754;
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 
 /* ======= Preloader style ======= */
 .preloader-bg,
