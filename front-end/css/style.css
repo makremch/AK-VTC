@@ -150,7 +150,23 @@ textarea {
 }
 
 
-
+input[type="datetime-local"] {
+    max-width: 100%;
+    margin-bottom: 15px;
+    padding: 18.5px 20px;
+    height: auto;
+    background-color: #222;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    line-height: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+    border: none;
+    border-radius: 30px;
+}
 input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="text"]:focus,
